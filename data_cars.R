@@ -11,3 +11,7 @@ for (i in 1:n){
 }
 
 hist(mtcars$mpg)
+
+# menambahkan syntax baru
+median(mtcars$mpg)
+quantile(mtcars$mpg, 0.25)
